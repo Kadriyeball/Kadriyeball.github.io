@@ -1,0 +1,27 @@
+# Kadriye Bal · Bilgisayar Programcılığı Öğrencisi Portfolyosu
+
+> Kadriye Bal, Akdeniz Üniversitesi Teknik Bilimler Meslek Yüksekokulu (MYO) Bilgisayar Programcılığı bölümünde okuyan, Antalya’da yaşayan bir öğrencidir. Python, SQL ve veritabanı yönetimi, HTML/CSS ile web tasarımı ve Adobe Photoshop ile grafik animasyon üzerine çalışır. Site Türkçe ve İngilizce görüntülenebilir.
+
+Kadriye Bal is a Computer Programming student at Akdeniz University, Vocational School of Technical Sciences, in Antalya, Türkiye. Works with Python, SQL and databases, HTML/CSS web design and Adobe Photoshop. The site is available in Turkish and English.
+
+## Sayfalar / Pages
+
+- [Anasayfa / Home](https://kadriyeball.github.io/): Gün batımında gül bahçesinden geçen kaydırmalı giriş, hakkımda özeti, öne çıkan projeler ve galeri önizlemesi.
+- [Hakkımda / About](https://kadriyeball.github.io/hakkimda.html): Özgeçmiş, haftalık ders programı (Python Programlama, Veritabanı Yönetimi, Ofis Yazılımları, Temel Matematik 1, Grafik Animasyon 1), ilgi alanları ve yetenek seviyeleri.
+- [Projeler / Projects](https://kadriyeball.github.io/projeler.html): Grafik Animasyon 1 projeleri: Ürün tanıtımı tasarımı, History Brush ile seçici renklendirme, Image Stack tekniği, 960.gs ızgara sistemiyle web arayüzü.
+- [Blog](https://kadriyeball.github.io/blog.html): "Python ile Algoritma ve Döngü Mantığı", "Adobe Photoshop’ta Katman ve Akıllı Nesne Teknikleri", "Yapay Zekâ Araçlarıyla Modern Web Tasarımı".
+- [Galeri / Gallery](https://kadriyeball.github.io/galeri.html): Kampüs, kahve molası, meşaleli yürüyüş, konser ve pizza workshop’undan fotoğraflar.
+- [İletişim / Contact](https://kadriyeball.github.io/iletisim.html): Antalya, Türkiye; e-posta ve iletişim formu.
+
+## Yetenekler / Skills
+
+- Python (döngüler, algoritmalar)
+- SQL ve veritabanı yönetimi
+- HTML ve CSS ile web arayüzü
+- Adobe Photoshop: katmanlar, maskeler, akıllı nesneler, History Brush, Image Stack
+- Ofis yazılımları
+
+## İletişim / Contact
+
+- Konum: Antalya / Muratpaşa
+- E-posta: kadriyebal357@gmail.com

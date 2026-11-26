@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kadriye Bal | Bilgisayar Programcılığı Öğrencisi Portfolyosu</title>
+  <meta name="description" content="Akdeniz Üniversitesi Teknik Bilimler MYO Bilgisayar Programcılığı öğrencisi Kadriye Bal: Python, SQL, web tasarımı ve Grafik Animasyon 1 projeleri. Gün batımında bir gül bahçesinden geçen kaydırmalı portfolyo.">
+  <meta name="author" content="Kadriye Bal">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://kadriyeball.github.io/">
+  <meta name="theme-color" content="#1A0E12">
+
+  <!-- Open Graph / sosyal paylaşım -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kadriye Bal Portfolyo">
+  <meta property="og:title" content="Kadriye Bal | Bilgisayar Programcılığı Öğrencisi Portfolyosu">
+  <meta property="og:description" content="Akdeniz Üniversitesi Bilgisayar Programcılığı öğrencisi Kadriye Bal: Python, SQL, web tasarımı ve Grafik Animasyon 1 projeleri.">
+  <meta property="og:url" content="https://kadriyeball.github.io/">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:image" content="https://kadriyeball.github.io/images/profil2.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kadriye Bal | Bilgisayar Programcılığı Öğrencisi Portfolyosu">
+  <meta name="twitter:description" content="Akdeniz Üniversitesi Bilgisayar Programcılığı öğrencisi Kadriye Bal: Python, SQL, web tasarımı ve Grafik Animasyon 1 projeleri.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="text/plain" href="llms.txt" title="LLM özeti">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    /* JS etkin işareti + yüklenemeyen görselleri gizle (kırık simge yerine yer tutucu kalır) */
+    document.documentElement.classList.add('js');
+    document.addEventListener('error', function (e) {
+      var el = e.target;
+      if (el && el.tagName === 'IMG') el.classList.add('is-broken');
+    }, true);
+  </script>
+
+  <!-- Yapılandırılmış veri: Person + WebSite + WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://kadriyeball.github.io/#person",
+        "name": "Kadriye Bal",
+        "url": "https://kadriyeball.github.io/",
+        "image": "https://kadriyeball.github.io/images/profil2.jpeg",
+        "jobTitle": "Bilgisayar Programcılığı Öğrencisi",
+        "description": "Akdeniz Üniversitesi Teknik Bilimler Meslek Yüksekokulu Bilgisayar Programcılığı öğrencisi; Python, SQL, web tasarımı ve Photoshop ile çalışıyor.",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Akdeniz Üniversitesi Teknik Bilimler Meslek Yüksekokulu",
+          "address": { "@type": "PostalAddress", "addressLocality": "Antalya", "addressCountry": "TR" }
+        },
+        "address": { "@type": "PostalAddress", "addressLocality": "Antalya", "addressCountry": "TR" },
+        "knowsAbout": ["Python", "SQL", "Veritabanı yönetimi", "HTML", "CSS", "Web tasarımı", "Adobe Photoshop", "Grafik animasyon"],
+        "knowsLanguage": ["tr", "en"],
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://kadriyeball.github.io/#website",
+        "url": "https://kadriyeball.github.io/",
+        "name": "Kadriye Bal Portfolyo",
+        "description": "Kadriye Bal kişisel portfolyosu: hakkımda, projeler, blog, galeri ve iletişim.",
+        "inLanguage": ["tr-TR", "en"],
+        "author": { "@id": "https://kadriyeball.github.io/#person" },
+        "publisher": { "@id": "https://kadriyeball.github.io/#person" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://kadriyeball.github.io/#webpage",
+        "url": "https://kadriyeball.github.io/",
+        "name": "Kadriye Bal | Bilgisayar Programcılığı Öğrencisi Portfolyosu",
+        "isPartOf": { "@id": "https://kadriyeball.github.io/#website" },
+        "about": { "@id": "https://kadriyeball.github.io/#person" },
+        "mainEntity": { "@id": "https://kadriyeball.github.io/#person" },
+        "inLanguage": "tr-TR"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Kütüphaneler (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <!-- Site betikleri (sıra önemli) -->
+  <script src="lang.js" defer></script>
+  <script src="components.js" defer></script>
+  <script src="js/rose-garden.js" defer></script>
+  <script src="js/rose-bloom.js" defer></script>
+  <script src="js/bouquet.js" defer></script>
+  <script src="js/orbit.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body data-page="home">
+
+  <header class="site-header" data-component="site-header"></header>
+
+  <main id="main">
+
+    <!-- 1. Gül bahçesi scroll sahnesi -->
+    <section class="hero" data-hero aria-labelledby="hero-title">
+      <canvas id="garden" class="hero__canvas" role="img"
+        aria-label="Gün batımında pastel pembe, krem ve gül kurusu güllerle dolu bir bahçe."
+        data-i18n-attr="aria-label:hero.canvasLabel"></canvas>
+
+      <div class="hero__cues">
+        <div class="cue cue--bl" data-cue="0.15">
+          <h1 id="hero-title" class="cue__title">
+            <span data-i18n="hero.c1.hello">Merhaba, ben</span>
+            <em data-i18n="profile.name">Kadriye Bal</em>
+          </h1>
+          <p class="cue__line" data-i18n="hero.c1.line">Kodla ve renkle hikâyeler kuruyorum.</p>
+        </div>
+
+        <div class="cue cue--tr" data-cue="0.45">
+          <span class="kicker" data-i18n="hero.c2.kicker">Bölümüm</span>
+          <p class="cue__title cue__title--md" data-i18n="profile.dept">Bilgisayar Programcılığı</p>
+          <p class="cue__line" data-i18n="hero.c2.line">Akdeniz Üniversitesi Teknik Bilimler MYO. Python, veritabanı ve grafik animasyonun buluştuğu yer.</p>
+        </div>
+
+        <div class="cue cue--br" data-cue="0.75">
+          <p class="cue__title cue__title--sm" data-i18n="hero.c3.title">Her satır kod, bir sonrakine açılan bir kapı.</p>
+          <p class="cue__line" data-i18n="hero.c3.line">Biraz daha kaydır: projelerim, fotoğraflarım ve beni anlatan birkaç satır seni bekliyor.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hakkımda'dan sayfa sonuna kadar: arkada kaydırdıkça açan gül (js/rose-bloom.js) -->
+    <div class="bloom-zone" data-bloom>
+
+    <!-- 2. Hakkımda özeti -->
+    <section class="section about theme-soft" id="hakkimda" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <figure class="about__portrait" data-reveal>
+          <div class="media media--rose media--id">
+            <span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+            <img src="images/profil2.jpeg" alt="Kadriye Bal vesikalık fotoğrafı" data-i18n-attr="alt:about.portraitAlt" width="840" height="1050" loading="lazy" decoding="async">
+          </div>
+        </figure>
+
+        <div class="about__text" data-bloom-fade>
+          <h2 id="about-title" class="h-section" data-reveal data-i18n="about.title">Hakkımda</h2>
+          <p class="about__lead" data-reveal data-i18n="about.lead">Kodun mantığını, tasarımın estetiğiyle buluşturmayı seviyorum.</p>
+          <p class="body" data-reveal data-i18n="about.body">Akdeniz Üniversitesi Teknik Bilimler MYO’da Bilgisayar Programcılığı okuyorum. Python ve veritabanlarıyla mantık kurmayı, Photoshop ve grafik animasyonla da o mantığa görünür bir yüz vermeyi öğreniyorum.</p>
+          <ul class="focus-list" data-reveal data-i18n-attr="aria-label:about.focusLabel" aria-label="Odaklandığım alanlar">
+            <li class="chip" data-i18n="about.f1">Python</li>
+            <li class="chip" data-i18n="about.f2">Veritabanı</li>
+            <li class="chip" data-i18n="about.f3">Web tasarımı</li>
+            <li class="chip" data-i18n="about.f4">Grafik animasyon</li>
+          </ul>
+          <div data-reveal>
+            <a class="btn btn--solid" href="hakkimda.html" data-arrow><span data-i18n="about.cta">Hakkımda Sayfasına Git</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Grafik Animasyon 1 projeleri -->
+    <section class="section projects theme-soft tone-rose" id="projeler" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 id="projects-title" class="h-section" data-reveal data-i18n="projects.title">Grafik Animasyon 1</h2>
+            <p class="lead" data-reveal data-i18n="projects.lead" style="margin-top: var(--s-4)">Adobe Photoshop ve web arayüzü üzerine dönem boyunca ürettiğim çalışmalardan bir seçki.</p>
+          </div>
+          <div class="section-head__actions" data-reveal>
+            <a class="btn" href="projeler.html" data-arrow><span data-i18n="projects.cta">Tüm Projeler</span></a>
+          </div>
+        </div>
+
+        <div class="cards" data-bloom-fade>
+          <article class="card">
+            <a class="card__link" href="projeler.html#urun-tanitimi">
+              <div class="media">
+                <span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+                <img src="images/proje2-sonrasi.jpg" alt="Ürün tanıtım afişi tasarımı" data-i18n-attr="alt:proj.1.alt" width="880" height="605" loading="lazy" decoding="async">
+              </div>
+              <div class="card__body">
+                <h3 class="card__title" data-i18n="proj.1.title">Ürün Tanıtımı Tasarımı</h3>
+                <p class="card__desc" data-i18n="proj.1.short">Bir ürünü öne çıkaran, sade ve dikkat çekici bir tanıtım görseli çalışması.</p>
+                <ul class="tags"><li>Photoshop</li><li>Composition</li><li>Typography</li></ul>
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a class="card__link" href="projeler.html#secici-renklendirme">
+              <div class="media media--warm">
+                <span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+                <img src="images/proje1-sonrasi.jpg" alt="History Brush ile seçici renklendirilmiş fotoğraf" data-i18n-attr="alt:proj.2.alt" width="880" height="605" loading="lazy" decoding="async">
+              </div>
+              <div class="card__body">
+                <h3 class="card__title" data-i18n="proj.2.title">Seçici Renklendirme</h3>
+                <p class="card__desc" data-i18n="proj.2.short">Siyah beyaz bir fotoğrafta yalnızca seçilen nesneyi renkli bırakan çalışma.</p>
+                <ul class="tags"><li>Photoshop</li><li>History Brush</li></ul>
+              </div>
+            </a>
+          </article>
+
+          <article class="card">
+            <a class="card__link" href="projeler.html#goruntu-yigini">
+              <div class="media media--rose">
+                <span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+                <img src="images/proje5-sonrasi.jpg" alt="Image Stack tekniğiyle temizlenmiş sahne" data-i18n-attr="alt:proj.3.alt" width="880" height="605" loading="lazy" decoding="async">
+              </div>
+              <div class="card__body">
+                <h3 class="card__title" data-i18n="proj.3.title">Görüntü Yığını</h3>
+                <p class="card__desc" data-i18n="proj.3.short">Aynı açıdan çekilmiş karelerden, kalabalığı silinmiş temiz bir sahne elde etme.</p>
+                <ul class="tags"><li>Photoshop</li><li>Image Stack</li><li>Median</li></ul>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Galeri önizleme vitrini -->
+    <section class="section gallery theme-soft tone-blush" id="galeri" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 id="gallery-title" class="h-section" data-reveal data-i18n="gallery.title">Galeri</h2>
+            <p class="lead" data-reveal data-i18n="gallery.lead" style="margin-top: var(--s-4)">Beni yansıtan anlar: yürüyüşlerden, konserden, kahve molalarından ve mutfaktan.</p>
+          </div>
+          <div class="section-head__actions" data-reveal>
+            <a class="btn btn--solid" href="galeri.html" data-arrow><span data-i18n="gallery.cta">Galeriye Git</span></a>
+          </div>
+        </div>
+
+        <div class="gallery-grid" data-bouquet>
+          <figure class="gtile gtile--a">
+            <div class="media media--warm"><span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+              <img src="images/galeri1.jpg" alt="Kampüste palmiyeler" data-i18n-attr="alt:g1.cap" loading="lazy" decoding="async"></div>
+            <figcaption data-i18n="g1.cap">Kampüste palmiyeler</figcaption>
+          </figure>
+          <figure class="gtile gtile--b">
+            <div class="media media--rose"><span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+              <img src="images/galeri2.jpg" alt="Kahve molası" data-i18n-attr="alt:g2.cap" loading="lazy" decoding="async"></div>
+            <figcaption data-i18n="g2.cap">Kahve molası</figcaption>
+          </figure>
+          <figure class="gtile gtile--c">
+            <div class="media"><span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+              <img src="images/galeri3.jpg" alt="Meşaleli yürüyüş" data-i18n-attr="alt:g3.cap" loading="lazy" decoding="async"></div>
+            <figcaption data-i18n="g3.cap">Meşaleli yürüyüş</figcaption>
+          </figure>
+          <figure class="gtile gtile--d">
+            <div class="media media--warm"><span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+              <img src="images/galeri4.jpg" alt="Ayna karesi" data-i18n-attr="alt:g4.cap" loading="lazy" decoding="async"></div>
+            <figcaption data-i18n="g4.cap">Ayna karesi</figcaption>
+          </figure>
+          <figure class="gtile gtile--e">
+            <div class="media media--rose"><span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+              <img src="images/galeri5.jpg" alt="Konser gecesi" data-i18n-attr="alt:g5.cap" loading="lazy" decoding="async"></div>
+            <figcaption data-i18n="g5.cap">Konser gecesi</figcaption>
+          </figure>
+          <figure class="gtile gtile--f">
+            <div class="media"><span class="media__ph" data-i18n="ph.soon">Görsel yakında</span>
+              <img src="images/galeri6.jpg" alt="Pizza workshop’u" data-i18n-attr="alt:g6.cap" loading="lazy" decoding="async"></div>
+            <figcaption data-i18n="g6.cap">Pizza workshop’u</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    </div><!-- /.bloom-zone -->
+
+  </main>
+
+  <footer class="site-footer" data-component="site-footer"></footer>
+
+</body>
+</html>
