@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#E9B9C6"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- kod penceresi -->
+  <rect x="150" y="150" width="880" height="600" rx="28" fill="#3A2230"/>
+  <circle cx="200" cy="200" r="11" fill="#E8899A"/><circle cx="236" cy="200" r="11" fill="#F2C17B"/><circle cx="272" cy="200" r="11" fill="#9FBF8F"/>
+  <text x="590" y="209" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#C9AAB6">dongu.py</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="42" fill="#F7E9EC" xml:space="preserve">
+    <text x="210" y="320">toplam = <tspan fill="#F2C17B">0</tspan></text>
+    <text x="210" y="405"><tspan fill="#E8899A">for</tspan> sayi <tspan fill="#E8899A">in</tspan> <tspan fill="#9FD3E0">range</tspan>(<tspan fill="#F2C17B">1</tspan>, <tspan fill="#F2C17B">11</tspan>):</text>
+    <text x="294" y="490"><tspan fill="#E8899A">if</tspan> sayi % <tspan fill="#F2C17B">2</tspan> == <tspan fill="#F2C17B">0</tspan>:</text>
+    <text x="378" y="575">toplam += sayi</text>
+    <text x="210" y="680"><tspan fill="#9FD3E0">print</tspan>(toplam)  <tspan fill="#9FBF8F"># 30</tspan></text>
+  </g>
+  <!-- döngü simgesi -->
+  <g fill="none" stroke="#9C4F68" stroke-width="34" stroke-linecap="round">
+    <path d="M1180 450 A150 150 0 0 1 1440 348"/>
+    <path d="M1480 450 A150 150 0 0 1 1220 552"/>
+  </g>
+  <path d="M1478 282 L1458 392 L1366 330 Z" fill="#9C4F68"/>
+  <path d="M1182 618 L1202 508 L1294 570 Z" fill="#9C4F68"/>
+  <text x="1330" y="480" text-anchor="middle" font-family="Consolas, monospace" font-size="80" font-weight="700" fill="#6E3349">for</text>
+</svg>

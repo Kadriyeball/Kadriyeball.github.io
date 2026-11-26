@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FCE8EE"/><stop offset="1" stop-color="#D9B8DC"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6C79A"/><stop offset="1" stop-color="#DD8F9E"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- üst üste üç katman -->
+  <g stroke="#fff" stroke-width="5" stroke-linejoin="round">
+    <path d="M110 590 L480 440 L850 590 L480 740 Z" fill="url(#sky)"/>
+    <path d="M110 450 L480 300 L850 450 L480 600 Z" fill="#8FB3A0" fill-opacity="0.82"/>
+    <path d="M110 310 L480 160 L850 310 L480 460 Z" fill="#FFFFFF" fill-opacity="0.55"/>
+  </g>
+  <ellipse cx="480" cy="310" rx="105" ry="48" fill="#B4627A"/>
+  <ellipse cx="480" cy="296" rx="62" ry="28" fill="#E6A3B4"/>
+  <!-- katmanlar paneli -->
+  <rect x="960" y="150" width="530" height="600" rx="26" fill="#3A2A38"/>
+  <text x="1000" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="600" fill="#F7E9EC">Katmanlar / Layers</text>
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="30" fill="#F7E9EC">
+    <rect x="990" y="255" width="470" height="135" rx="16" fill="#8E4D68"/>
+    <rect x="990" y="410" width="470" height="135" rx="16" fill="#523B4E"/>
+    <rect x="990" y="565" width="470" height="135" rx="16" fill="#523B4E"/>
+    <!-- göz simgeleri -->
+    <g fill="none" stroke="#F7E9EC" stroke-width="4">
+      <path d="M1008 322 q22 -24 44 0 q-22 24 -44 0z M1008 477 q22 -24 44 0 q-22 24 -44 0z M1008 632 q22 -24 44 0 q-22 24 -44 0z"/>
+    </g>
+    <g fill="#F7E9EC"><circle cx="1030" cy="322" r="6"/><circle cx="1030" cy="477" r="6"/><circle cx="1030" cy="632" r="6"/></g>
+    <!-- küçük resimler -->
+    <rect x="1075" y="278" width="110" height="90" rx="8" fill="#fff"/><ellipse cx="1130" cy="323" rx="34" ry="24" fill="#B4627A"/>
+    <path d="M1160 368 h25 v-25 z" fill="#2B1C28" stroke="#fff" stroke-width="3"/>
+    <rect x="1075" y="433" width="110" height="90" rx="8" fill="#8FB3A0"/>
+    <rect x="1075" y="588" width="110" height="90" rx="8" fill="url(#sky)"/>
+    <text x="1215" y="318">Akıllı nesne</text><text x="1215" y="358" font-size="24" fill="#E9C7D3">Smart Object</text>
+    <text x="1215" y="488">Maske / Mask</text>
+    <text x="1215" y="643">Arka plan</text>
+  </g>
+</svg>
